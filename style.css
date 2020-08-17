@@ -546,16 +546,17 @@ footer .footer-Contatos .box p{
 
 
 @media(max-width: 991px){
-	.trigger-main{
-		display: block;
-	}
+	
 	header .container{
 		position: relative;
+	}
+	.letra1{
+		font-size: 10pt;
 	}
     .container{
     	max-width: 750px;
     }
-    .services .services-content .card .box h3{
+    .Serviços .Serviços-content .card .box h3{
     	min-height:50px;
     }
 
@@ -597,13 +598,13 @@ footer .footer-Contatos .box p{
 	padding:0px 15px;
 }
 
-.about .about-Contatos .img{
+.inf .inf-Contatos .img{
 	width: 100%;
 }
-.about .about-Contatos .description{
+.inf .inf-Contatos .descrição{
 	width: 100%;
 }
-.services .services-Contatos .card{
+.Serviços .Serviços-Contatos .card{
 	width: 50%;
 }
 .skills .skills-Contatos .card{
@@ -615,14 +616,14 @@ footer .footer-Contatos .box p{
 }
 
 @media(max-width: 500px){
-.services .services-Contatos .card{
+.Serviços .Serviços-Contatos .card{
 	width: 100%;
 }	
-.services .services-Contatos .card .box h3{
+.Serviços .Serviços-Contatos .card .box h3{
 	min-height: auto;
 }
 .portfolio .portfolio-Contatos .card{
-	width:100%;
+	width: 100%;
 }
 footer .footer-Contatos .box{
 	width: 100%;
